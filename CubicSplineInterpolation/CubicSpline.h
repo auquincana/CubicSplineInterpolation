@@ -3,7 +3,7 @@
 
 using namespace std;
 
-enum class boundaryConditions { Natural, Clamped };
+enum class BoundaryConditions { Natural, Clamped };
 
 struct solution
 {

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CubicSpline">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAQAABAAAAAAgAEABAAAACAAA=</HashCode>
+      <FileName>CubicSpline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NaturalSpline">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>NaturalSpline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClampedSpline">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAACAIA=</HashCode>
+      <FileName>ClampedSpline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="solution">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAQAAAAAAAAA=</HashCode>
+      <FileName>CubicSpline.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BoundaryConditions">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAA=</HashCode>
+      <FileName>CubicSpline.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
