@@ -1,5 +1,4 @@
 #include "NaturalSpline.h"
-#include "QCIndexTemplates.h"
 
 
 NaturalSpline::NaturalSpline(pair<vector<double>, vector<double>> const & nodes): CubicSpline(nodes)

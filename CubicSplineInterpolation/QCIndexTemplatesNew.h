@@ -16,33 +16,18 @@ using namespace std;
 template <class ForwardIterator, class T>
 ForwardIterator lower_bound_custom(ForwardIterator first, ForwardIterator last, const T& val)
 {
-    ForwardIterator it = --last;
+	ForwardIterator it = --last;
 
-    if (val > *it) 
+	if (*first >= val) return first;
+	else if (*it < val) return it;
+	else
+	{
+		it =  lower_bound(first, last, val);
+		if (*it > val)
+			--it;
+
 		return it;
-    else if (val < *first) 
-		return first;
-    else
-    {
-        typename iterator_traits<ForwardIterator>::difference_type count, step;
-        count = distance(first, last);
-        while (count > 0)
-        {
-            it = first; 
-			step = count / 2; 
-			advance(it, step);
-            if (*it < val)
-            {
-                first = ++it;
-                count = step + 1;
-            }
-            else count = step;
-        }
-
-        if (*first > val) --first;
-
-        return first;
-    }
+	}
 }
 
 /*! \fn

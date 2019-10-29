@@ -152,14 +152,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CubicSpline.cpp" />
-    <ClCompile Include="CubicSplineInterpolation.cpp" />
     <ClCompile Include="ClampedSpline.cpp" />
+    <ClCompile Include="LinearInterpolation.cpp" />
     <ClCompile Include="NaturalSpline.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClampedSpline.h" />
     <ClInclude Include="CubicSpline.h" />
+    <ClInclude Include="CubicSplineInterpolationTesting1.h" />
+    <ClInclude Include="Interpolation.h" />
+    <ClInclude Include="LinearInterpolation.h" />
+    <ClInclude Include="LinearInterpolationTesting1.h" />
     <ClInclude Include="NaturalSpline.h" />
+    <ClInclude Include="QCIndexTemplatesNew.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

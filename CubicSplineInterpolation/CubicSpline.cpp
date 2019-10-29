@@ -1,5 +1,5 @@
 #include "CubicSpline.h"
-#include "QCIndexTemplates.h"
+#include "QCIndexTemplatesNew.h"
 
 
 CubicSpline::CubicSpline(pair<vector<double>, vector<double>> const & nodes) : n(nodes.first.size() - 1), x(nodes.first)

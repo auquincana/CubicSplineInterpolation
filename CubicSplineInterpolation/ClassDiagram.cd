@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CubicSpline">
-    <Position X="6.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAEAAAQAABAAAAAAgAEABAAAACAAA=</HashCode>
-      <FileName>CubicSpline.h</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="NaturalSpline">
     <Position X="4.75" Y="4" Width="1.5" />
     <TypeIdentifier>
@@ -24,22 +17,12 @@
       <FileName>ClampedSpline.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="solution">
-    <Position X="0.75" Y="1.25" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
+  <Class Name="CubicSpline">
+    <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAQAABAAAAAAgAEABAAAACAAA=</HashCode>
       <FileName>CubicSpline.h</FileName>
     </TypeIdentifier>
-  </Struct>
-  <Enum Name="BoundaryConditions">
-    <Position X="0.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAA=</HashCode>
-      <FileName>CubicSpline.h</FileName>
-    </TypeIdentifier>
-  </Enum>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

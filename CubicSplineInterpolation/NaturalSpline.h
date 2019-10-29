@@ -21,7 +21,8 @@
 using namespace std;
 
 
-class NaturalSpline:public CubicSpline
+class NaturalSpline:
+	public CubicSpline
 {
 public:
 	NaturalSpline() = delete;

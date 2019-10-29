@@ -1,17 +1,10 @@
 #pragma once
 #include <vector>
+#include "Interpolation.h"
 
 using namespace std;
 
 enum class BoundaryConditions { Natural, Clamped };
-
-struct solution
-{
-	vector<double> a;
-	vector<double> b;
-	vector<double> c;
-	vector<double> d;
-};
 
 /*!
 \class        CubicSpline class.h "include/CubicSpline.h"
@@ -29,7 +22,9 @@ struct solution
 *  \copyright Maria Solange Becerra
 */
 
-class CubicSpline
+using namespace detail;
+
+class CubicSpline :public Interpolation
 {
 public:
 
